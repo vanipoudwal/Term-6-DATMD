@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div style="padding-left: 200px; padding-top: 200px;">
+            Username: <input type="text" name="username" placeholder="Enter username" />
+                <br/><br/>
+            Password: <input type="password" name="password" placeholder="Enter password" />
+                <br/><br/>
+            <input class="btn btn-primary" type="button" value="Login">
+        </div>
+        <div>
+            <article id = "main" class="current">
+                This is the Main Article
+            </article>
+            <article id="Computers" class="next">
+                This is the Computer Article
+            </article>
+            <article id="Mobiles" class="next">
+                This is the Mobiles Article
+            </article>
+        </div>
+                <br/><br/>
+        <div>
+            <nav class="current"></nav>
+            <article id="Main" class="current">
+                <section>
+                    This contains scrollable Content!!!
+                </section>
+            </article>
+        </div>
+        <div>
+            <nav class="current">
+                <h2 class="normal-case">E-Commerce Portal</h2>
+            </nav>
+            <article id="Main" class="current">
+                <section id="mainSection">
+                    <h2 class="normal-case">Online e-shop</h2>
+                    <ul class="list">
+                        <li>
+                            <h3>Computers</h3>
+                            <h4>Laptops</h4>
+                            <h2 class="normal-case"><p>These are 8th generation laptops</p></h2>
+                        </li>
+                        <li>
+                            <h3>Mobiles</h3>
+                            <h4>Android Phones</h4>
+                            <h2 class="normal-case"><p>Here you will found latest android phones</p></h2>
+                        </li>
+                        <li>
+                            <h3>Electronics</h3>
+                            <h4>AC</h4>
+                            <h2 class="normal-case"> <p>These are 5 star Acs</p></h2>
+                        </li>
+                    </ul>
+                    <h2 class="normal-case"><p>copyright @ niit.com</p></h2>
+                </section>
+            </article>
+        </div>
+        <div style="padding-left: 20%;">
+            <h1>Image</h1>
+            <button id="takePicture">Click a Picture</button>
+            <br/><br/>
+                <img id="myImage" />
+                <h1>Device Location</h1>
+                <p id="geolocation"></p>
+            <h1>Compass Data</h1>
+                Megnatic Heading:
+                <br/><br/>
+            <input type="text" name="data" id="compass" /><br />
+                <p id="orientation"></p>
+        </div>
+                <p id="message"></p>
+                <p id="data"></p>
+                <p id="getItemId"></p>
+                <p id="names"></p>
+                <h1>Accelerometer Example</h1>
+                    X-Axix : <input type="text" name="x-axis" id="x" /><br/>
+                    Y-Axix : <input type="text" name="y-axis" id="y" /><br/>
+                    Z-Axix : <input type="text" name="z-axis" id="z" /><br/> -->
+                <nav>
+                    <h2>E-Shop</h2>
+                </nav>
+            <article id="main">
+                <section id="mainSection">
+                    <h2 class="normal-case">Available Categories</h2>
+                        <ul class="list">
+                            <li class='comp'>
+                                <aside>
+                                    <img title="Computers" src="computer.jpg" height="50" width="50"/>
+                                </aside>
+                                <div>
+                                    <h3>Computer</h3>
+                                    <h4>Latest Desktops</h4>
+                                </div>
+                            </li>
+                            <li class='comp'>
+                                <aside>
+                                    <img title="Laptops" src="laptop.jpg" height="50" width="50" />
+                                </aside>
+                                <div>
+                                    <h3>Laptops</h3>
+                                    <h4>Latest laptops</h4>
+                                </div>
+                            </li>
+                        </ul>
+                </section>
+            </article>     
+       <script src="cordova.js"></script> 
+       <script src="js/index.js"></script>
+       <script src="js/chui.min.js"></script>
+    </body>
+</html>
