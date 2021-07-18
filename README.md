@@ -1,2 +1,2 @@
 # Term-6-DATMD
-This repository is used to write DATMD (Developing Apps Using Touch & Mobile Devices) Code.
+This Repository Is Used To Write Developing Apps Using Touch & Mobile Devices (jQuery + CSS + JS) Code.
