@@ -1,2 +1,2 @@
 # Term-6-DATMD
-This Repository Is Used To Write Developing Apps Using Touch & Mobile Devices (jQuery + CSS + JS) (Using Apache Cordova, NodeJS, Gradle) Code.
+This repository is used to write Developing Apps using Touch & Mobile Devices (jQuery + CSS + JS) (using Apache Cordova, NodeJS, Gradle) code.
